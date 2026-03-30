@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>learn</groupId>
-    <artifactId>_1-hello-world</artifactId>
+    <artifactId>_2-work-queue</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>hello-world</name>
-    <description>hello-world</description>
+    <name>_2-work-queue</name>
+    <description>_2-work-queue</description>
     <url/>
     <licenses>
         <license/>
@@ -39,14 +39,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <!-- Source: https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>5.29.0</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 
